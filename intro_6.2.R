@@ -8,7 +8,6 @@ library(ggplot2)
 install.packages("rayshader")
 
 install.packages("tidyverse")
-library
 
 install.packages("terra")
 
@@ -83,7 +82,6 @@ ggplot(full_dataset, aes(x=Year)) +
        caption="Shaded area shows the COVID-19 pandemic period.") +
   scale_color_manual(values = color_map) +
   geom_line(aes(y=Female, color="Female"), linewidth = 0.5, alpha = 0.5) + 
-  geom_line(aes(y=Male, color="female"), linewidth = 0.5, alpha = 0.5) +
+  geom_line(aes(y=Male, color="Male"), linewidth = 0.5, alpha = 0.5) +
   scale_x_continuous(breaks = seq(1930,2023, 10)) +
-  scale_y_continuous(breaks = seq(50,100,2)) +
-  theme_minimal()
+  scale_y_continuous(breaks = seq(50,100,2)) +  theme_minimal()
