@@ -5,6 +5,8 @@
 # Data Source: NOAA - https://www.ncei.noaa.gov/maps/grid-extract/
 # Generally the elevation data is in meters
 
+# This example uses Las Vegas area Lake Mead elevation data.
+
 # Load required libraries
 library(rayshader)
 library(tidyverse)
